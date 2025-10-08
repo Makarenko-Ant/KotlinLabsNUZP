@@ -50,7 +50,7 @@ fun strCalculatet(
 }
 
 fun main(args: Array<String>) {
-    println("Лабораторна робота №${labNumber()} користувача ${seed()}")
+    //println("Лабораторна робота №${labNumber()} користувача ${seed()}")
     iCalculate()
     dCalculate()
     print(strCalculatet("ATCCTJ","AJGJJT"))
