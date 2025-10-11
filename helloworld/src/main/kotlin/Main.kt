@@ -53,7 +53,7 @@ fun main(args: Array<String>) {
     //println("Лабораторна робота №${labNumber()} користувача ${seed()}")
     println(iCalculate())
     println(dCalculate())
-    println(strCalculate("ATCCTJ","AJGJJT"))
+    println(strCalculate("JJCCGTJA","JJCCGCJA"))
     //startTestUi(seed(), labNumber())
 
 }
