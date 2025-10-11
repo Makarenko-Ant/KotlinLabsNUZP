@@ -36,7 +36,7 @@ fun strCalculatet(
     require(x0.length == x1.length && x0.length % 2 == 0) {
         "Рядки повинні мати однакову парну довжину"
     }
-    var diffCount = 0;
+    var diffCount: Int = 0;
     for (i in x0.indices step 2) {
         val c0 = x0[i]
         val c1 = x1[i]
