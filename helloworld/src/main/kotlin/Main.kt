@@ -29,7 +29,7 @@ fun dCalculate(
     return res
 }
 
-fun strCalculatet(
+fun strCalculate(
     x0: String,
     x1: String
 ): Int {
@@ -53,7 +53,7 @@ fun main(args: Array<String>) {
     //println("Лабораторна робота №${labNumber()} користувача ${seed()}")
     println(iCalculate())
     println(dCalculate())
-    println(strCalculatet("ATCCTJ","AJGJJT"))
+    println(strCalculate("ATCCTJ","AJGJJT"))
     //startTestUi(seed(), labNumber())
 
 }
