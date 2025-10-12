@@ -38,8 +38,8 @@ fun strCalculate(
     }
     var diffCount: Int = 0;
     for (i in x0.indices step 2) {
-        val c0 = x0[i]
-        val c1 = x1[i]
+        val c0 = x0[i+1]
+        val c1 = x1[i+1]
         val areEqual = when {
             (c0 == 'T' && c1 == 'J') || (c0 == 'J' && c1 == 'T') -> true
             else -> c0 == c1
@@ -54,6 +54,6 @@ fun main(args: Array<String>) {
     println(iCalculate())
     println(dCalculate())
     println(strCalculate("JJCCGTJA","JJCCGCJA"))
-    //startTestUi(seed(), labNumber())
+    startTestUi(seed(), labNumber())
 
 }
